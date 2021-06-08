@@ -1,0 +1,123 @@
+body{
+    background: #1b1f3b;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow-x: hidden;
+    height:10000px;
+}
+
+#app{
+    display: flex !important;
+    flex-direction: column;
+    grid-auto-rows: minmax(150px, auto);
+    /* grid-template-columns:  */  
+    background: #1b1f3b;
+    color: #6968bd;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    margin: 0 10%;
+    
+    justify-content: center;
+}
+
+h1{
+    color: #ff8e88;
+}
+.zip{
+    padding-bottom: 30px;
+}
+ i{
+    padding: 5px;
+}
+.entry{
+    background: rgba(59, 74, 107, .4);
+    width: 388px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 320px;
+    background: #3b4a6b;
+    color: #eb9d99;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    border-radius: 10px;
+}
+
+button{
+    width: 150px;
+    height: 80px;
+    background: #3b4a6b;
+    color: #eb9d99;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+    cursor: pointer;
+}
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    background: #3b4a6b;
+    color: #eb9d99;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 10px;
+}
+input,
+button,
+textarea{
+    border-radius: 10px;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #eb9d99; 
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #eb9d99; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #eb9d99; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+.feel{
+    position: relative;
+    display: inline-block;
+}
+#generate{
+    position: absolute;
+    margin-left: 20px;
+    transition:all .5s;
+}
+#generate:hover{
+    background-color: #eb9d99;
+    color: #3b4a6b;
+}
